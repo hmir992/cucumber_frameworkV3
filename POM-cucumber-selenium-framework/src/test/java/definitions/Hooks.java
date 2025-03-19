@@ -11,8 +11,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Hooks {
     public static WebDriver driver;
-    public static String URL = "http://localhost:3200/";
-    public static String URL2 = "http://localhost:3000";  // FIXED URL
+    public static String URL = "http://localhost:3000";
 
     @Before
     public void openBrowser() {
@@ -27,7 +26,7 @@ public class Hooks {
 
         // Open the website
         try {
-            driver.get(URL2);
+            driver.get(URL);
         } catch (Exception e) {
             System.err.println("Failed to load URL: " + e.getMessage());
         }

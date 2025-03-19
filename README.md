@@ -1,1 +1,1 @@
-# cucumber_frameworkV3
+This is the response of the exercise found here : https://github.com/igorstojakovic/qa_assessment_app?tab=readme-ov-file
